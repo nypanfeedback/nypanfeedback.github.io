@@ -1,0 +1,20 @@
+{
+  "question": {
+    "magyar": "Mennyire elégedett velünk?",
+    "deutsch": "Wie zufrieden sind Sie?"
+  },
+  "hints": {
+    "worst": {
+      "magyar": "egyáltalán nem",
+      "deutsch": "überhaupt nicht"
+    },
+    "best": {
+      "magyar": "nagyon",
+      "deutscdeutschh": "sehr zufrieden"
+    }
+  },
+  "notification": {
+    "magyar": "Köszönöm szépen!",
+    "deutsch": "Vielen Dank!"
+  }
+}

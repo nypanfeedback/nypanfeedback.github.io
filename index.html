@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sterne</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stars.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="content_table">
+      <div class="content_table_row">
+        <div class="content">
+          <div id="notification">
+            <h1 class="deutsch">Kaputt :-(</h1>
+            <h1 class="magyar">Kimerült :-(</h1>
+          </div>
+          <div id="feedback">
+            <div id="question">
+              <h1 class="deutsch">Eine Frage bitte</h1>
+              <h1 class="magyar">Egy kérdés köszönöm</h1>
+            </div>
+            <div class="stars">
+              <form action="">
+                <input class="star star-5" id="star-5" type="radio" name="star">
+                <label class="star star-5" for="star-5"></label>
+                <input class="star star-4" id="star-4" type="radio" name="star">
+                <label class="star star-4" for="star-4"></label>
+                <input class="star star-3" id="star-3" type="radio" name="star">
+                <label class="star star-3" for="star-3"></label>
+                <input class="star star-2" id="star-2" type="radio" name="star">
+                <label class="star star-2" for="star-2"></label>
+                <input class="star star-1" id="star-1" type="radio" name="star">
+                <label class="star star-1" for="star-1"></label>
+              </form>
+              <div id="hints"><span class="worst deutsch">uuuuh</span><span class="worst magyar">uuuuh</span><span class="best deutsch">yeay</span><span class="best magyar">yeay</span></div>
+            </div>
+          </div>
+          <div><img class="flag framed" src="/hungary.png"><img class="flag blackAndWhite" src="/germany.png"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/stars.js"></script>
+  </body>
+</html>
