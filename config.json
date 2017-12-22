@@ -1,7 +1,7 @@
 {
   "question": {
-    "magyar": "Mennyire elégedett velünk?",
-    "deutsch": "Wie zufrieden sind Sie?"
+    "magyar": "Mennyire elégedett üzletünkkel?",
+    "deutsch": "Wie zufrieden sind Sie mit unserem Geschäft?"
   },
   "hints": {
     "worst": {
@@ -10,11 +10,11 @@
     },
     "best": {
       "magyar": "nagyon",
-      "deutscdeutschh": "sehr zufrieden"
+      "deutsch": "sehr zufrieden"
     }
   },
   "notification": {
-    "magyar": "Köszönöm szépen!",
+    "magyar": "Köszönjük!",
     "deutsch": "Vielen Dank!"
   }
 }
